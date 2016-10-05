@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E3FF44C1D4AFF7900FA2FC1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3FF44B1D4AFF7900FA2FC1 /* DetailViewController.swift */; };
+		214C6EDB1D46B652007EC6DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C6EDA1D46B652007EC6DE /* AppDelegate.swift */; };
+		214C6EDD1D46B652007EC6DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C6EDC1D46B652007EC6DE /* ViewController.swift */; };
+		214C6EE01D46B652007EC6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214C6EDE1D46B652007EC6DE /* Main.storyboard */; };
+		214C6EE31D46B652007EC6DE /* HospitalFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 214C6EE11D46B652007EC6DE /* HospitalFinder.xcdatamodeld */; };
+		214C6EE51D46B652007EC6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214C6EE41D46B652007EC6DE /* Assets.xcassets */; };
+		214C6EE81D46B652007EC6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214C6EE61D46B652007EC6DE /* LaunchScreen.storyboard */; };
+		214C6EF01D46DAF2007EC6DE /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C6EEF1D46DAF2007EC6DE /* ListViewController.swift */; };
+		214C6EF21D46DB00007EC6DE /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C6EF11D46DB00007EC6DE /* FilterViewController.swift */; };
+		214C6EF41D46DB0F007EC6DE /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C6EF31D46DB0F007EC6DE /* BookmarkViewController.swift */; };
+		214C6EF61D46DB1B007EC6DE /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C6EF51D46DB1B007EC6DE /* LocationViewController.swift */; };
+		214C6EF81D46DBD3007EC6DE /* ChooseCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C6EF71D46DBD3007EC6DE /* ChooseCityViewController.swift */; };
+		214C6EFA1D46DD57007EC6DE /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C6EF91D46DD57007EC6DE /* CustomCell.swift */; };
+		214C6EFE1D46E128007EC6DE /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C6EFC1D46E128007EC6DE /* Hospital.swift */; };
+		2178FDD91D4AC8E0008EE8A7 /* Bookmark+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2178FDD71D4AC8E0008EE8A7 /* Bookmark+CoreDataProperties.swift */; };
+		2178FDDA1D4AC8E0008EE8A7 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2178FDD81D4AC8E0008EE8A7 /* Bookmark.swift */; };
+		2178FDE01D4AFD60008EE8A7 /* BookmarkButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2178FDDF1D4AFD60008EE8A7 /* BookmarkButtonDelegate.swift */; };
+		2178FDE21D4AFD71008EE8A7 /* BookmarkCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2178FDE11D4AFD71008EE8A7 /* BookmarkCustomCell.swift */; };
+		34E5E0691D480888006E6BFA /* FilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5E0681D480888006E6BFA /* FilterModel.swift */; };
+		34E5E06B1D4808B4006E6BFA /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5E06A1D4808B4006E6BFA /* MainTabController.swift */; };
+		34E5E06D1D484C79006E6BFA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5E06C1D484C79006E6BFA /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E3FF44B1D4AFF7900FA2FC1 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		214C6ED71D46B652007EC6DE /* HospitalFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HospitalFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		214C6EDA1D46B652007EC6DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		214C6EDC1D46B652007EC6DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		214C6EDF1D46B652007EC6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		214C6EE21D46B652007EC6DE /* HospitalFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HospitalFinder.xcdatamodel; sourceTree = "<group>"; };
+		214C6EE41D46B652007EC6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		214C6EE71D46B652007EC6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		214C6EE91D46B652007EC6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214C6EEF1D46DAF2007EC6DE /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		214C6EF11D46DB00007EC6DE /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		214C6EF31D46DB0F007EC6DE /* BookmarkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkViewController.swift; sourceTree = "<group>"; };
+		214C6EF51D46DB1B007EC6DE /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		214C6EF71D46DBD3007EC6DE /* ChooseCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseCityViewController.swift; sourceTree = "<group>"; };
+		214C6EF91D46DD57007EC6DE /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		214C6EFC1D46E128007EC6DE /* Hospital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		2178FDD71D4AC8E0008EE8A7 /* Bookmark+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bookmark+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2178FDD81D4AC8E0008EE8A7 /* Bookmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		2178FDDF1D4AFD60008EE8A7 /* BookmarkButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkButtonDelegate.swift; sourceTree = "<group>"; };
+		2178FDE11D4AFD71008EE8A7 /* BookmarkCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkCustomCell.swift; sourceTree = "<group>"; };
+		34E5E0681D480888006E6BFA /* FilterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterModel.swift; sourceTree = "<group>"; };
+		34E5E06A1D4808B4006E6BFA /* MainTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		34E5E06C1D484C79006E6BFA /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		214C6ED41D46B652007EC6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214C6ECE1D46B652007EC6DE = {
+			isa = PBXGroup;
+			children = (
+				2178FDD71D4AC8E0008EE8A7 /* Bookmark+CoreDataProperties.swift */,
+				2178FDD81D4AC8E0008EE8A7 /* Bookmark.swift */,
+				214C6EFC1D46E128007EC6DE /* Hospital.swift */,
+				214C6ED91D46B652007EC6DE /* HospitalFinder */,
+				214C6ED81D46B652007EC6DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		214C6ED81D46B652007EC6DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				214C6ED71D46B652007EC6DE /* HospitalFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		214C6ED91D46B652007EC6DE /* HospitalFinder */ = {
+			isa = PBXGroup;
+			children = (
+				214C6EDA1D46B652007EC6DE /* AppDelegate.swift */,
+				214C6EDC1D46B652007EC6DE /* ViewController.swift */,
+				214C6EF71D46DBD3007EC6DE /* ChooseCityViewController.swift */,
+				1E3FF44B1D4AFF7900FA2FC1 /* DetailViewController.swift */,
+				214C6EEF1D46DAF2007EC6DE /* ListViewController.swift */,
+				214C6EF11D46DB00007EC6DE /* FilterViewController.swift */,
+				34E5E06C1D484C79006E6BFA /* LocationManager.swift */,
+				34E5E0681D480888006E6BFA /* FilterModel.swift */,
+				214C6EF31D46DB0F007EC6DE /* BookmarkViewController.swift */,
+				214C6EF51D46DB1B007EC6DE /* LocationViewController.swift */,
+				34E5E06A1D4808B4006E6BFA /* MainTabController.swift */,
+				214C6EDE1D46B652007EC6DE /* Main.storyboard */,
+				2178FDE11D4AFD71008EE8A7 /* BookmarkCustomCell.swift */,
+				2178FDDF1D4AFD60008EE8A7 /* BookmarkButtonDelegate.swift */,
+				214C6EF91D46DD57007EC6DE /* CustomCell.swift */,
+				214C6EE41D46B652007EC6DE /* Assets.xcassets */,
+				214C6EE61D46B652007EC6DE /* LaunchScreen.storyboard */,
+				214C6EE91D46B652007EC6DE /* Info.plist */,
+				214C6EE11D46B652007EC6DE /* HospitalFinder.xcdatamodeld */,
+			);
+			path = HospitalFinder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		214C6ED61D46B652007EC6DE /* HospitalFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214C6EEC1D46B652007EC6DE /* Build configuration list for PBXNativeTarget "HospitalFinder" */;
+			buildPhases = (
+				214C6ED31D46B652007EC6DE /* Sources */,
+				214C6ED41D46B652007EC6DE /* Frameworks */,
+				214C6ED51D46B652007EC6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HospitalFinder;
+			productName = HospitalFinder;
+			productReference = 214C6ED71D46B652007EC6DE /* HospitalFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		214C6ECF1D46B652007EC6DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Ra";
+				TargetAttributes = {
+					214C6ED61D46B652007EC6DE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 214C6ED21D46B652007EC6DE /* Build configuration list for PBXProject "HospitalFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 214C6ECE1D46B652007EC6DE;
+			productRefGroup = 214C6ED81D46B652007EC6DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				214C6ED61D46B652007EC6DE /* HospitalFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		214C6ED51D46B652007EC6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214C6EE81D46B652007EC6DE /* LaunchScreen.storyboard in Resources */,
+				214C6EE51D46B652007EC6DE /* Assets.xcassets in Resources */,
+				214C6EE01D46B652007EC6DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		214C6ED31D46B652007EC6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214C6EF21D46DB00007EC6DE /* FilterViewController.swift in Sources */,
+				214C6EE31D46B652007EC6DE /* HospitalFinder.xcdatamodeld in Sources */,
+				2178FDE01D4AFD60008EE8A7 /* BookmarkButtonDelegate.swift in Sources */,
+				214C6EF81D46DBD3007EC6DE /* ChooseCityViewController.swift in Sources */,
+				34E5E0691D480888006E6BFA /* FilterModel.swift in Sources */,
+				214C6EF41D46DB0F007EC6DE /* BookmarkViewController.swift in Sources */,
+				2178FDDA1D4AC8E0008EE8A7 /* Bookmark.swift in Sources */,
+				2178FDD91D4AC8E0008EE8A7 /* Bookmark+CoreDataProperties.swift in Sources */,
+				34E5E06B1D4808B4006E6BFA /* MainTabController.swift in Sources */,
+				1E3FF44C1D4AFF7900FA2FC1 /* DetailViewController.swift in Sources */,
+				214C6EFA1D46DD57007EC6DE /* CustomCell.swift in Sources */,
+				214C6EDD1D46B652007EC6DE /* ViewController.swift in Sources */,
+				214C6EF61D46DB1B007EC6DE /* LocationViewController.swift in Sources */,
+				214C6EF01D46DAF2007EC6DE /* ListViewController.swift in Sources */,
+				214C6EDB1D46B652007EC6DE /* AppDelegate.swift in Sources */,
+				2178FDE21D4AFD71008EE8A7 /* BookmarkCustomCell.swift in Sources */,
+				214C6EFE1D46E128007EC6DE /* Hospital.swift in Sources */,
+				34E5E06D1D484C79006E6BFA /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		214C6EDE1D46B652007EC6DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214C6EDF1D46B652007EC6DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		214C6EE61D46B652007EC6DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214C6EE71D46B652007EC6DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		214C6EEA1D46B652007EC6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		214C6EEB1D46B652007EC6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		214C6EED1D46B652007EC6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HospitalFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Student.HospitalFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		214C6EEE1D46B652007EC6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HospitalFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Student.HospitalFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		214C6ED21D46B652007EC6DE /* Build configuration list for PBXProject "HospitalFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214C6EEA1D46B652007EC6DE /* Debug */,
+				214C6EEB1D46B652007EC6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214C6EEC1D46B652007EC6DE /* Build configuration list for PBXNativeTarget "HospitalFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214C6EED1D46B652007EC6DE /* Debug */,
+				214C6EEE1D46B652007EC6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		214C6EE11D46B652007EC6DE /* HospitalFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				214C6EE21D46B652007EC6DE /* HospitalFinder.xcdatamodel */,
+			);
+			currentVersion = 214C6EE21D46B652007EC6DE /* HospitalFinder.xcdatamodel */;
+			path = HospitalFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 214C6ECF1D46B652007EC6DE /* Project object */;
+}

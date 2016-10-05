@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "92af855b41c5db283d088bd1f53fc685"
+build_time: [523095358, 61743000]
+inputs:
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/FilterViewController.swift": [523093985, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/BookmarkButtonDelegate.swift": [9223372036854775807, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/ChooseCityViewController.swift": [523044970, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/FilterModel.swift": [523093731, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/BookmarkViewController.swift": [523084547, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/Bookmark.swift": [9223372036854775807, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/Bookmark+CoreDataProperties.swift": [9223372036854775807, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/MainTabController.swift": [523044970, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/DetailViewController.swift": [9223372036854775807, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/CustomCell.swift": [523084508, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/ViewController.swift": [523044970, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/LocationViewController.swift": [523078460, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/ListViewController.swift": [523095336, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/AppDelegate.swift": [523092202, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/BookmarkCustomCell.swift": [9223372036854775807, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/Hospital.swift": [523093402, 0]
+  "/Users/kevm1892/Documents/HospitalFinderiOSApp/HospitalFinder/LocationManager.swift": [523044970, 0]

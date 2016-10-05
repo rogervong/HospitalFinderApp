@@ -1,0 +1,253 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BookmarkCustomCell"
+provides-nominal:
+- "C14HospitalFinder18BookmarkCustomCell"
+provides-member:
+- ["C14HospitalFinder18BookmarkCustomCell", ""]
+provides-dynamic-lookup:
+- "bookmarkWebsiteButton"
+- "indexPath"
+- "bookmarkLocationLabel"
+- "bookmarkImageView"
+- "bookmarkPhoneButton"
+- "bookmarkNameLabel"
+depends-top-level:
+- "UIImageView"
+- "NSIndexPath"
+- "UILabel"
+- "UITableViewCell"
+- "BookmarkCustomCell"
+- "UIButton"
+depends-member:
+- ["Ps9AnyObject", "bookmarkImageView"]
+- ["Ps9AnyObject", "bookmarkLocationLabel"]
+- ["Ps9AnyObject", "bookmarkNameLabel"]
+- ["Ps9AnyObject", "bookmarkPhoneButton"]
+- ["Ps9AnyObject", "bookmarkWebsiteButton"]
+- ["Ps9AnyObject", "indexPath"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["C14HospitalFinder18BookmarkCustomCell", "NSIndexPath"]
+- ["C14HospitalFinder18BookmarkCustomCell", "UIButton"]
+- ["C14HospitalFinder18BookmarkCustomCell", "UIImageView"]
+- ["C14HospitalFinder18BookmarkCustomCell", "UILabel"]
+- ["C14HospitalFinder18BookmarkCustomCell", "bookmarkImageView"]
+- ["C14HospitalFinder18BookmarkCustomCell", "bookmarkLocationLabel"]
+- ["C14HospitalFinder18BookmarkCustomCell", "bookmarkNameLabel"]
+- ["C14HospitalFinder18BookmarkCustomCell", "bookmarkPhoneButton"]
+- ["C14HospitalFinder18BookmarkCustomCell", "bookmarkWebsiteButton"]
+- ["C14HospitalFinder18BookmarkCustomCell", "deinit"]
+- ["C14HospitalFinder18BookmarkCustomCell", "indexPath"]
+- ["C14HospitalFinder18BookmarkCustomCell", "init"]
+- ["Ps11CVarArgType", "bookmarkImageView"]
+- ["Ps11CVarArgType", "bookmarkLocationLabel"]
+- ["Ps11CVarArgType", "bookmarkNameLabel"]
+- ["Ps11CVarArgType", "bookmarkPhoneButton"]
+- ["Ps11CVarArgType", "bookmarkWebsiteButton"]
+- ["Ps11CVarArgType", "indexPath"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "bookmarkImageView"]
+- ["Ps28CustomDebugStringConvertible", "bookmarkLocationLabel"]
+- ["Ps28CustomDebugStringConvertible", "bookmarkNameLabel"]
+- ["Ps28CustomDebugStringConvertible", "bookmarkPhoneButton"]
+- ["Ps28CustomDebugStringConvertible", "bookmarkWebsiteButton"]
+- ["Ps28CustomDebugStringConvertible", "indexPath"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "bookmarkImageView"]
+- ["Ps23CustomStringConvertible", "bookmarkLocationLabel"]
+- ["Ps23CustomStringConvertible", "bookmarkNameLabel"]
+- ["Ps23CustomStringConvertible", "bookmarkPhoneButton"]
+- ["Ps23CustomStringConvertible", "bookmarkWebsiteButton"]
+- ["Ps23CustomStringConvertible", "indexPath"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "bookmarkImageView"]
+- ["Ps9Equatable", "bookmarkLocationLabel"]
+- ["Ps9Equatable", "bookmarkNameLabel"]
+- ["Ps9Equatable", "bookmarkPhoneButton"]
+- ["Ps9Equatable", "bookmarkWebsiteButton"]
+- ["Ps9Equatable", "indexPath"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "bookmarkImageView"]
+- ["Ps8Hashable", "bookmarkLocationLabel"]
+- ["Ps8Hashable", "bookmarkNameLabel"]
+- ["Ps8Hashable", "bookmarkPhoneButton"]
+- ["Ps8Hashable", "bookmarkWebsiteButton"]
+- ["Ps8Hashable", "indexPath"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "bookmarkImageView"]
+- ["PSo8NSCoding", "bookmarkLocationLabel"]
+- ["PSo8NSCoding", "bookmarkNameLabel"]
+- ["PSo8NSCoding", "bookmarkPhoneButton"]
+- ["PSo8NSCoding", "bookmarkWebsiteButton"]
+- ["PSo8NSCoding", "indexPath"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "NSIndexPath"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "bookmarkImageView"]
+- ["CSo8NSObject", "bookmarkLocationLabel"]
+- ["CSo8NSObject", "bookmarkNameLabel"]
+- ["CSo8NSObject", "bookmarkPhoneButton"]
+- ["CSo8NSObject", "bookmarkWebsiteButton"]
+- ["CSo8NSObject", "indexPath"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "bookmarkImageView"]
+- ["PSo16NSObjectProtocol", "bookmarkLocationLabel"]
+- ["PSo16NSObjectProtocol", "bookmarkNameLabel"]
+- ["PSo16NSObjectProtocol", "bookmarkPhoneButton"]
+- ["PSo16NSObjectProtocol", "bookmarkWebsiteButton"]
+- ["PSo16NSObjectProtocol", "indexPath"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "bookmarkImageView"]
+- ["PSo29UIAccessibilityIdentification", "bookmarkLocationLabel"]
+- ["PSo29UIAccessibilityIdentification", "bookmarkNameLabel"]
+- ["PSo29UIAccessibilityIdentification", "bookmarkPhoneButton"]
+- ["PSo29UIAccessibilityIdentification", "bookmarkWebsiteButton"]
+- ["PSo29UIAccessibilityIdentification", "indexPath"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "bookmarkImageView"]
+- ["PSo12UIAppearance", "bookmarkLocationLabel"]
+- ["PSo12UIAppearance", "bookmarkNameLabel"]
+- ["PSo12UIAppearance", "bookmarkPhoneButton"]
+- ["PSo12UIAppearance", "bookmarkWebsiteButton"]
+- ["PSo12UIAppearance", "indexPath"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "bookmarkImageView"]
+- ["PSo21UIAppearanceContainer", "bookmarkLocationLabel"]
+- ["PSo21UIAppearanceContainer", "bookmarkNameLabel"]
+- ["PSo21UIAppearanceContainer", "bookmarkPhoneButton"]
+- ["PSo21UIAppearanceContainer", "bookmarkWebsiteButton"]
+- ["PSo21UIAppearanceContainer", "indexPath"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "bookmarkImageView"]
+- ["PSo17UICoordinateSpace", "bookmarkLocationLabel"]
+- ["PSo17UICoordinateSpace", "bookmarkNameLabel"]
+- ["PSo17UICoordinateSpace", "bookmarkPhoneButton"]
+- ["PSo17UICoordinateSpace", "bookmarkWebsiteButton"]
+- ["PSo17UICoordinateSpace", "indexPath"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "bookmarkImageView"]
+- ["PSo13UIDynamicItem", "bookmarkLocationLabel"]
+- ["PSo13UIDynamicItem", "bookmarkNameLabel"]
+- ["PSo13UIDynamicItem", "bookmarkPhoneButton"]
+- ["PSo13UIDynamicItem", "bookmarkWebsiteButton"]
+- ["PSo13UIDynamicItem", "indexPath"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "bookmarkImageView"]
+- ["PSo18UIFocusEnvironment", "bookmarkLocationLabel"]
+- ["PSo18UIFocusEnvironment", "bookmarkNameLabel"]
+- ["PSo18UIFocusEnvironment", "bookmarkPhoneButton"]
+- ["PSo18UIFocusEnvironment", "bookmarkWebsiteButton"]
+- ["PSo18UIFocusEnvironment", "indexPath"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "bookmarkImageView"]
+- ["PSo27UIGestureRecognizerDelegate", "bookmarkLocationLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "bookmarkNameLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "bookmarkPhoneButton"]
+- ["PSo27UIGestureRecognizerDelegate", "bookmarkWebsiteButton"]
+- ["PSo27UIGestureRecognizerDelegate", "indexPath"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "NSIndexPath"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "bookmarkImageView"]
+- ["CSo11UIResponder", "bookmarkLocationLabel"]
+- ["CSo11UIResponder", "bookmarkNameLabel"]
+- ["CSo11UIResponder", "bookmarkPhoneButton"]
+- ["CSo11UIResponder", "bookmarkWebsiteButton"]
+- ["CSo11UIResponder", "indexPath"]
+- ["CSo11UIResponder", "init"]
+- ["CSo15UITableViewCell", "NSIndexPath"]
+- ["CSo15UITableViewCell", "UIButton"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "bookmarkImageView"]
+- ["CSo15UITableViewCell", "bookmarkLocationLabel"]
+- ["CSo15UITableViewCell", "bookmarkNameLabel"]
+- ["CSo15UITableViewCell", "bookmarkPhoneButton"]
+- ["CSo15UITableViewCell", "bookmarkWebsiteButton"]
+- ["CSo15UITableViewCell", "indexPath"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "bookmarkImageView"]
+- ["PSo18UITraitEnvironment", "bookmarkLocationLabel"]
+- ["PSo18UITraitEnvironment", "bookmarkNameLabel"]
+- ["PSo18UITraitEnvironment", "bookmarkPhoneButton"]
+- ["PSo18UITraitEnvironment", "bookmarkWebsiteButton"]
+- ["PSo18UITraitEnvironment", "indexPath"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "NSIndexPath"]
+- ["CSo6UIView", "UIButton"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "bookmarkImageView"]
+- ["CSo6UIView", "bookmarkLocationLabel"]
+- ["CSo6UIView", "bookmarkNameLabel"]
+- ["CSo6UIView", "bookmarkPhoneButton"]
+- ["CSo6UIView", "bookmarkWebsiteButton"]
+- ["CSo6UIView", "indexPath"]
+- ["CSo6UIView", "init"]
+- ["Ps12_Reflectable", "bookmarkImageView"]
+- ["Ps12_Reflectable", "bookmarkLocationLabel"]
+- ["Ps12_Reflectable", "bookmarkNameLabel"]
+- ["Ps12_Reflectable", "bookmarkPhoneButton"]
+- ["Ps12_Reflectable", "bookmarkWebsiteButton"]
+- ["Ps12_Reflectable", "indexPath"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C14HospitalFinder18BookmarkCustomCell"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "9f00857163d226936e06f66104eedf94"

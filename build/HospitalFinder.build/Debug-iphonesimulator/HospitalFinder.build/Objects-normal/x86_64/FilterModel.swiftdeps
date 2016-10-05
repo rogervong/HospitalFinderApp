@@ -1,0 +1,91 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FilterModel"
+provides-nominal:
+- "C14HospitalFinder11FilterModel"
+provides-member:
+- ["C14HospitalFinder11FilterModel", ""]
+provides-dynamic-lookup:
+- "distance"
+- "rating"
+- "consultingFee"
+depends-top-level:
+- "NSObject"
+- "Float"
+- "FilterModel"
+- "Double"
+depends-member:
+- ["Ps9AnyObject", "consultingFee"]
+- ["Ps9AnyObject", "distance"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "rating"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "consultingFee"]
+- ["Ps11CVarArgType", "distance"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "rating"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "consultingFee"]
+- ["Ps28CustomDebugStringConvertible", "distance"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "rating"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "consultingFee"]
+- ["Ps23CustomStringConvertible", "distance"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "rating"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "consultingFee"]
+- ["Ps9Equatable", "distance"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rating"]
+- ["Ps9Equatable", ""]
+- ["C14HospitalFinder11FilterModel", "Double"]
+- ["C14HospitalFinder11FilterModel", "Float"]
+- ["C14HospitalFinder11FilterModel", "consultingFee"]
+- ["C14HospitalFinder11FilterModel", "deinit"]
+- ["C14HospitalFinder11FilterModel", "distance"]
+- ["C14HospitalFinder11FilterModel", "init"]
+- ["C14HospitalFinder11FilterModel", "rating"]
+- ["Ps8Hashable", "consultingFee"]
+- ["Ps8Hashable", "distance"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rating"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Float"]
+- ["CSo8NSObject", "consultingFee"]
+- ["CSo8NSObject", "distance"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "rating"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "consultingFee"]
+- ["PSo16NSObjectProtocol", "distance"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "rating"]
+- ["PSo16NSObjectProtocol", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "C14HospitalFinder11FilterModel"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "375ebe6c25e277f85b8753ae37e169e5"

@@ -1,0 +1,211 @@
+"name": "Group Health Bellevue Medical Center",
+"location": "11511 NE 10th ST",
+"website": "http://www.ghc.org",
+"phone": "(425)688-5000",
+"hoursOfOperation": "9:00 am - 5:00 pm",
+"consultingFee": "$45",
+"rating": "3",
+"more description": "Group Health specialists provide expert care at Group Health Medical Centers, in our contracted hospitals, and throughout the region. Our large network of specialists has the expertise to address virtually every medical need."
+insurance [
+  {insurance_id: 1, name: String},
+  {insurance_id: 3, name: String},
+  insurance_id: 4, name: String}
+],
+images: [
+{
+  id: 1,
+  url: "https://s3-us-west-2.amazonaws.com/hospitalfinder/Overlake+Hospital+Medical+Center/DM-1-Overlake-1-e1346264859362.jpg"
+}
+
+"name": "OverLake Hospital Medical Center",
+"location": "1035 116th Ave NE",
+"website": "http://www.overlakehospital.org",
+"phone": "(425)502-3000",
+"hoursOfOperation": "9:00 am - 4:00 pm",
+"consultingFee": "$35",
+"rating": "3.5",
+"more description": "Overlake is proud to provide comprehensive inpatient and outpatient health services designed to meet the needs and expectations of all our patients. Combining state-of-the-art technology with an emphasis on quality and customer service is an important aspect of our care."
+insurance [
+  {insurance_id: 1, name: String},
+  {insurance_id: 2, name: String}
+],
+images: [
+{
+  id: 1,
+  url: "https://s3-us-west-2.amazonaws.com/hospitalfinder/Overlake+Hospital+Medical+Center/DM-1-Overlake-1-e1346264859362.jpg"
+}
+
+"name": "Swedish Cancer Institute",
+"location": "13333 Bel-Red Rd # 100",
+"website": "http://www.swedish.org",
+"phone": "(425)646-9340",
+"hoursOfOperation": "8:00 am - 12:00 pm",
+"consultingFee": "$42",
+"rating": "4.8",
+"more description": "Swedish is pleased to announce the opening of the Center for Perinatal Bonding and Support– a partial hospitalization day program for moms and newborns. "
+insurance [
+  {insurance_id: 1, name: String},
+  {insurance_id: 4, name: String},
+  insurance_id: 5, name: String}
+],
+images: [
+{
+  id: 1,
+  url: "https://s3-us-west-2.amazonaws.com/hospitalfinder/Overlake+Hospital+Medical+Center/DM-1-Overlake-1-e1346264859362.jpg"
+}
+
+"name": "Outpatient Surgery at Virginia Mason Hospital Medical Center",
+"location": "1135 112th Ave NE # 252",
+"website": "https://www.virginiamason.org",
+"phone": "(425)862-2737",
+"hoursOfOperation": "Open 24 Hours",
+"consultingFee": "$60",
+"rating": "4",
+"more description": "Virginia Mason is recognized as one of the nation's best health care facilities. Virginia Mason's network of primary and specialty care medical centers and Virginia Mason Hospital and Seattle Medical Center offer superior treatment outcomes in areas including:"
+insurance [
+  {insurance_id: 2, name: String},
+  {insurance_id: 5, name: String},
+  insurance_id: 3, name: String}
+],
+images: [
+{
+  id: 1,
+  url: "https://s3-us-west-2.amazonaws.com/hospitalfinder/Overlake+Hospital+Medical+Center/DM-1-Overlake-1-e1346264859362.jpg"
+}
+
+"name": "Kindred Hospital",
+"location": "4800 Bellevue Lake Way NE",
+"website": "http://www.khseattlefirsthill.com",
+"phone": "(425)987-2208",
+"hoursOfOperation": "10:00 am - 4:30 pm",
+"consultingFee": "$30",
+"rating": "3.8",
+"More description": "We are the nation’s largest provider of post-acute care, in settings that range from transitional care hospitals to home health services. Our goal is to help patients recover as fully as possible in the setting best suited to their specific care needs."
+insurance [
+  {insurance_id: 4, name: String},
+  {insurance_id: 2, name: String},
+  insurance_id: 3, name: String}
+],
+images: [
+{
+  id: 1,
+  url: "https://s3-us-west-2.amazonaws.com/hospitalfinder/Overlake+Hospital+Medical+Center/DM-1-Overlake-1-e1346264859362.jpg"
+}
+
+
+<-------------------------------------------SEATTLE HOSPITALS ------------------------------------------->
+
+
+"name": "Seattle Children's Hospital",
+"location": "1135 116th Ave NE #400",
+"website": "http://www.seattlechildrens.org/contact/overlake/",
+"phone": "(425)454-4644",
+"hoursOfOperation": "9:00 am - 5:30 pm",
+"consultingFee": "$55",
+"rating": "4.5",
+"more description": "Whether your kids are home for summer, on the road with you or away at camp, use these tips to keep your family safe and healthy."
+insurance [
+  {insurance_id: 5, name: String},
+  {insurance_id: 2, name: String},
+  insurance_id: 1, name: String}
+],
+images: [
+{
+  id: 1,
+  url: "https://s3-us-west-2.amazonaws.com/hospitalfinder/Overlake+Hospital+Medical+Center/DM-1-Overlake-1-e1346264859362.jpg"
+}
+
+"name": "University of Washington Medical Center",
+"location": "1959 NE Pacific St, Seattle, WA 98195",
+"website": "uwmedicine.org",
+"phone": "(206)598-3300",
+"hoursOfOperation": "Open 24 Hours",
+"consultingFee": "$65",
+"rating": "4.9",
+"more description": "UW Medicine hospitals and programs rank highly in U.S. News & World Report's 2013-14 edition of Best Hospitals. University of Washington Medical Center is ranked No. 1 as the best hospital in the state and in the Seattle metro area. UW Medical Center is rated among the nation's top 10 hospitals in three specialties: rehabilitation (No. 4), cancer (No. 7), and diabetes and endocrinology (No. 8)."
+insurance [
+  {insurance_id: 2, name: String},
+  {insurance_id: 1, name: String},
+  insurance_id: 3, name: String}
+],
+images: [
+{
+  id: 1,
+  url: "https://s3-us-west-2.amazonaws.com/hospitalfinder/Overlake+Hospital+Medical+Center/DM-1-Overlake-1-e1346264859362.jpg"
+}
+
+"name": "Harborview Medical Center",
+"location": "325 9th Ave",
+"website": "http://www.uwmedicine.org/harborview",
+"phone": "(206)552-3342",
+"hoursOfOperation": "Open 24 Hours",
+"consultingFee": "$50",
+"rating": "4.6",
+"more description": "Harborview Medical Center has received numerous awards and accolades in recognition of delivering high quality health care to people from all walks of life. Among its many honors are an "A" for patient safety in the Leapfrog."
+insurance [
+  {insurance_id: 1, name: String},
+  {insurance_id: 2, name: String},
+  insurance_id: 5, name: String}
+],
+images: [
+{
+  id: 1,
+  url: "https://s3-us-west-2.amazonaws.com/hospitalfinder/Overlake+Hospital+Medical+Center/DM-1-Overlake-1-e1346264859362.jpg"
+}
+
+"name": "Northwest Hospital & Medical Center",
+"location": "1550 N 155th ST",
+"website": "http://nwhospital.org/",
+"phone": "(206)364-0500",
+"hoursOfOperation": "Open 24 Hours",
+"consultingFee": "$51",
+"rating": "3.5",
+"more description": "Northwest Hospital & Medical Center is a full-service, non-profit community hospital, offering comprehensive medical, surgical and therapeutic services. With 281 beds, more than 1900 employees and a world-class medical staff, we provide innovative, technologically advanced care on a patient-friendly, easy-access campus just north of Seattle."
+insurance [
+  {insurance_id: 3, name: String},
+  {insurance_id: 1, name: String},
+  insurance_id: 4, name: String}
+],
+images: [
+{
+  id: 1,
+  url: "https://s3-us-west-2.amazonaws.com/hospitalfinder/Overlake+Hospital+Medical+Center/DM-1-Overlake-1-e1346264859362.jpg"
+}
+
+"name": "Seattle Indian Health Center",
+"location": "611 12th Ave S # 200",
+"website": "http://www.sihb.org/",
+"phone": "(206)324-9360",
+"hoursOfOperation": "8:30 am - 6:00 pm",
+"consultingFee": "$28",
+"rating": "3.2",
+"more description": "The Seattle Indian Health Board (SIHB) is a private, non-profit 501(c)3 organization incorporated in the State of Washington. We provide community health care and services targeting the urban American Indian and Alaska Native population in the greater Seattle/King County area. We are state-recognized and our ambulatory health care services are nationally accredited through the Accreditation Association for Ambulatory Health Care. We have been serving our community since 1970."
+insurance [
+  {insurance_id: 3, name: String},
+  {insurance_id: 1, name: String},
+  insurance_id: 2, name: String}
+],
+images: [
+{
+  id: 1,
+  url: "https://s3-us-west-2.amazonaws.com/hospitalfinder/Overlake+Hospital+Medical+Center/DM-1-Overlake-1-e1346264859362.jpg"
+}
+
+"name": "VA Puget Sound",
+"location": "1660 S Columbian Way",
+"website": "http://www.pugetsound.va.gov/",
+"phone": "(206)762-1010",
+"hoursOfOperation": "10:00 am - 4:30 pm",
+"consultingFee": "$40",
+"rating": "2.4",
+"more description": "VA welcomes those coming to our medical center campuses who are volunteering to serve or visiting our nation’s Veterans. Our primary duty is to provide Veterans and their families safe access to care and benefits with respect to their privacy. "
+insurance [
+  {insurance_id: 2, name: String},
+  {insurance_id: 4, name: String},
+  insurance_id: 5, name: String}
+],
+images: [
+{
+  id: 1,
+  url: "https://s3-us-west-2.amazonaws.com/hospitalfinder/Overlake+Hospital+Medical+Center/DM-1-Overlake-1-e1346264859362.jpg"
+}

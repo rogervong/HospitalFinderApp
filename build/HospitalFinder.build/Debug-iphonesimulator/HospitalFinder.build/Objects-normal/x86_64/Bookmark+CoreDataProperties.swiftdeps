@@ -1,0 +1,155 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C14HospitalFinder8Bookmark", ""]
+- ["C14HospitalFinder8Bookmark", "bookmarked"]
+- ["C14HospitalFinder8Bookmark", "date"]
+- ["C14HospitalFinder8Bookmark", "id"]
+- ["C14HospitalFinder8Bookmark", "imageUrl"]
+- ["C14HospitalFinder8Bookmark", "location"]
+- ["C14HospitalFinder8Bookmark", "name"]
+- ["C14HospitalFinder8Bookmark", "phoneNumber"]
+- ["C14HospitalFinder8Bookmark", "rating"]
+- ["C14HospitalFinder8Bookmark", "website"]
+provides-dynamic-lookup:
+- "location"
+- "date"
+- "imageUrl"
+- "phoneNumber"
+- "rating"
+- "name"
+- "website"
+- "id"
+- "bookmarked"
+depends-top-level:
+- "Bookmark"
+- "NSNumber"
+- "NSDate"
+- "String"
+depends-member:
+- ["Ps9AnyObject", "bookmarked"]
+- ["Ps9AnyObject", "date"]
+- ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "imageUrl"]
+- ["Ps9AnyObject", "location"]
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "phoneNumber"]
+- ["Ps9AnyObject", "rating"]
+- ["Ps9AnyObject", "website"]
+- ["C14HospitalFinder8Bookmark", "NSDate"]
+- ["C14HospitalFinder8Bookmark", "NSNumber"]
+- ["C14HospitalFinder8Bookmark", "String"]
+- ["C14HospitalFinder8Bookmark", "bookmarked"]
+- ["C14HospitalFinder8Bookmark", "date"]
+- ["C14HospitalFinder8Bookmark", "id"]
+- ["C14HospitalFinder8Bookmark", "imageUrl"]
+- ["C14HospitalFinder8Bookmark", "location"]
+- ["C14HospitalFinder8Bookmark", "name"]
+- ["C14HospitalFinder8Bookmark", "phoneNumber"]
+- ["C14HospitalFinder8Bookmark", "rating"]
+- ["C14HospitalFinder8Bookmark", "website"]
+- ["Ps11CVarArgType", "bookmarked"]
+- ["Ps11CVarArgType", "date"]
+- ["Ps11CVarArgType", "id"]
+- ["Ps11CVarArgType", "imageUrl"]
+- ["Ps11CVarArgType", "location"]
+- ["Ps11CVarArgType", "name"]
+- ["Ps11CVarArgType", "phoneNumber"]
+- ["Ps11CVarArgType", "rating"]
+- ["Ps11CVarArgType", "website"]
+- ["Ps28CustomDebugStringConvertible", "bookmarked"]
+- ["Ps28CustomDebugStringConvertible", "date"]
+- ["Ps28CustomDebugStringConvertible", "id"]
+- ["Ps28CustomDebugStringConvertible", "imageUrl"]
+- ["Ps28CustomDebugStringConvertible", "location"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "phoneNumber"]
+- ["Ps28CustomDebugStringConvertible", "rating"]
+- ["Ps28CustomDebugStringConvertible", "website"]
+- ["Ps23CustomStringConvertible", "bookmarked"]
+- ["Ps23CustomStringConvertible", "date"]
+- ["Ps23CustomStringConvertible", "id"]
+- ["Ps23CustomStringConvertible", "imageUrl"]
+- ["Ps23CustomStringConvertible", "location"]
+- ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "phoneNumber"]
+- ["Ps23CustomStringConvertible", "rating"]
+- ["Ps23CustomStringConvertible", "website"]
+- ["Ps9Equatable", "bookmarked"]
+- ["Ps9Equatable", "date"]
+- ["Ps9Equatable", "id"]
+- ["Ps9Equatable", "imageUrl"]
+- ["Ps9Equatable", "location"]
+- ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "phoneNumber"]
+- ["Ps9Equatable", "rating"]
+- ["Ps9Equatable", "website"]
+- ["Ps8Hashable", "bookmarked"]
+- ["Ps8Hashable", "date"]
+- ["Ps8Hashable", "id"]
+- ["Ps8Hashable", "imageUrl"]
+- ["Ps8Hashable", "location"]
+- ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "phoneNumber"]
+- ["Ps8Hashable", "rating"]
+- ["Ps8Hashable", "website"]
+- ["CSo15NSManagedObject", "NSDate"]
+- ["CSo15NSManagedObject", "NSNumber"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "bookmarked"]
+- ["CSo15NSManagedObject", "date"]
+- ["CSo15NSManagedObject", "id"]
+- ["CSo15NSManagedObject", "imageUrl"]
+- ["CSo15NSManagedObject", "location"]
+- ["CSo15NSManagedObject", "name"]
+- ["CSo15NSManagedObject", "phoneNumber"]
+- ["CSo15NSManagedObject", "rating"]
+- ["CSo15NSManagedObject", "website"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "bookmarked"]
+- ["CSo8NSObject", "date"]
+- ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "imageUrl"]
+- ["CSo8NSObject", "location"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "phoneNumber"]
+- ["CSo8NSObject", "rating"]
+- ["CSo8NSObject", "website"]
+- ["PSo16NSObjectProtocol", "bookmarked"]
+- ["PSo16NSObjectProtocol", "date"]
+- ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "imageUrl"]
+- ["PSo16NSObjectProtocol", "location"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "phoneNumber"]
+- ["PSo16NSObjectProtocol", "rating"]
+- ["PSo16NSObjectProtocol", "website"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C14HospitalFinder8Bookmark"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "8d2eb9169718e35e8d606d2e8dc70490"
